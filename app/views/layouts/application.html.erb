@@ -7,8 +7,25 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
 
-<%= yield %>
+  		<a href=""><%= image_tag("qcproto-ninja-logo.png", :alt => "quartz composer prototyping ninja") %></a>
+
+  		<ul class="nav">
+  			<li><%= link_to "Tutorials", posts_path %></li>
+  			<li><%= link_to "Create Post", new_post_path %></li>
+  		</ul>
+
+  </div><!-- #navbar-inner -->
+</div><!-- #navbar -->
+
+
+	<div class="container">
+
+		<%= yield %>
+
+	</div><!-- #container -->
 
 </body>
 </html>

@@ -11,3 +11,17 @@
  *= require_self
  *= require_tree .
  */
+
+body {
+	padding-top: 65px;
+}
+
+.navbar img {
+	height: 65px;
+	float: left;
+}
+
+textarea {
+	width: 500px !important;
+	height: 250px !important;
+}
