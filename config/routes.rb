@@ -1,4 +1,7 @@
 Qcproto::Application.routes.draw do
+  resources :tutorials
+
+
   resources :posts
 
 

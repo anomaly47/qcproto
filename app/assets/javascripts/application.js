@@ -13,3 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$('.nav li a').click(function (e) {
+	e.preventDefault();
+	$(this).active('show');
+})

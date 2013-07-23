@@ -1,8 +1,8 @@
-// Place all the styles related to the posts controller here.
+// Place all the styles related to the tutorials controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.post {
+.tutorial {
 background: #fff;
 padding: 25px;
 border: solid 1px rgba(0,0,0,0.06);
@@ -10,7 +10,16 @@ border-radius: 4px;
 margin-bottom: 25px;
 }
 
-.post p {
+.tutorial .page-header {
+	margin: 0 0 20px;
+}
+
+.tutorial h2 {
+	font-size: 30px;
+	margin: 0 0 10px 0;
+}
+
+.tutorial p {
 	margin: 4px 0;
 	font-family: georgia, serif;
 	font-size: 16pt;
@@ -18,14 +27,22 @@ margin-bottom: 25px;
 	color: #525252;
 }
 
-.post .admin {
+.tutorial .admin {
 	display: none;
 }
 
-.post.hover {
+.tutorial.hover {
 	background: #FCFCFC;
 }
 
-.post.hover .admin {
+.tutorial.hover .admin {
 	display: inline;
 }
+
+h5.author {
+	background: #F3F3F3;
+	width: 300px;
+	padding: 7px 15px;
+	border: solid 1px rgba(0,0,0,0.05);
+	border-radius: 4px;
+	}
